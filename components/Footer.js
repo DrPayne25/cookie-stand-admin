@@ -1,11 +1,10 @@
 
-export default function Footer() {
+
+export default function Footer({totalLocations}) {
   return(
   <footer className="p-3 justify-evenly bg-emerald-500">
     <nav>
-      <h1 className='text-sm'>
-        ©2022
-      </h1>
+      <p>{totalLocations} Locations World Wide</p>
     </nav>
   </footer>
   )
