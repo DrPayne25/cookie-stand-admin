@@ -6,6 +6,7 @@ import Table from '../components/Table'
 import Footer from '../components/Footer'
 import {hours} from '../hours'
 import {useState} from 'react'
+import {useAuth} from '../contexts/auth'
 
 export default function CookieStandAdmin() {
 
